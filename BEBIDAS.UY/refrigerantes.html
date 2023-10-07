@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1.jpg">
+    <link rel="stylesheet" href="compras.css">
+    <script src="loja_criarconta.js"></script>
+    <title>LóutusDrinks/Refrigerantes</title>
+</head>
+
+<body>
+    <h1>Lótus Drinks<br>Refrigerantes</h1>
+    <a href="loja_inicial.html"><image src="logo1.jpg" id="logo"></image></a>
+    <div id="grade">
+        <div id="pro1">
+            <image src="salus2l.webp" id="produto1"></image>
+            <p>Agua Salus Sem Gas 2L<br>R$8,00</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v1" placeholder="0-6">
+        </div>
+        <div id="pro2">
+            <image src="salus6.25l.jpg" id="produto2"></image>
+            <p>Galão Agua Salus Sem Gas 6.25L<br>R$20,00 </p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v2" placeholder="0-6">
+        </div>
+        <div id="pro3">
+            <image src="salus-naranja.webp" id="produto3"></image>
+            <p>Salus Sabor Laranja 600ml<br>R$5,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v3" placeholder="0-6">
+        </div>
+        <div id="pro4">
+            <image src="tonicapasodelostoros.webp" id="produto4"></image>
+            <p>Agua Tonica Paso de Los Toros 600ml<br>R$4,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v4" placeholder="0-6">
+        </div>
+        <div id="pro5">
+            <image src="pomelo2l.jpg" id="produto5"></image>
+            <p>Pomelo Paso de Los Toros 2L<br>R$14,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v5" placeholder="0-6">
+        </div>
+        <div id="pro6">
+            <image src="pomelo600.webp" id="produto6"></image>
+            <p>Pomelo Paso de Los Toros 600ml<br>R$5,90</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v6" placeholder="0-6">
+        </div>
+        <div id="botaosomar">
+            <input id="soma">
+            <br> 
+            <button id="bs" onclick="multiplicarPlaceholder(soma, v1.value,8, v2.value,20, v3.value,5.99, v4.value,4.99, v5.value,14.99, v6.value,5.9)">Somar</button>
+        </div>
+    </div>
+    <a href="carrinho.html"> <button type="button" id="botaoentrar" >Finalizar Compra</button></a>  
+</body>
+</html>

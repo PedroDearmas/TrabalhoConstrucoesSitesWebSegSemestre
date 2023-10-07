@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1.jpg">
+    <link rel="stylesheet" href="compras.css">
+    <script src="loja_criarconta.js"></script>
+    <title>LóutusDrinks/Whiskys</title>
+</head>
+
+<body>
+    <h1>Lótus Drinks<br>Whiskys</h1>
+    <a href="loja_inicial.html"><image src="logo1.jpg" id="logo"></image></a>
+    <div id="grade">
+        <div id="pro1">
+            <image src="RoyalSalute.jpg" id="produto1"></image>
+            <p>Royal Salute 21 anos 700ml<br>R$1099,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v1" placeholder="0-6">
+        </div>
+        <div id="pro2">
+            <image src="Chivas.jpg" id="produto2"></image>
+            <p>Chivas Regal 12 anos 1L<br>R$169,70 </p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v2" placeholder="0-6">
+        </div>
+        <div id="pro3">
+            <image src="Chivas18.jpg" id="produto3"></image>
+            <p>Chivas Regal 18 anos 1L<br>R$529,90</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v3" placeholder="0-6">
+        </div>
+        <div id="pro4">
+            <image src="JackDanielsapple.jpg" id="produto4"></image>
+            <p>Jack Daniel's Apple 1L<br>R$182,19</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v4" placeholder="0-6">
+        </div>
+        <div id="pro5">
+            <image src="JackDaniels.jpg" id="produto5"></image>
+            <p>Jack Daniel's Old No.07<br>R$139,90</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v5" placeholder="0-6">
+        </div>
+        <div id="pro6">
+            <image src="RedLabel.jpg" id="produto6"></image>
+            <p>Red Label 1L<br>R$89,90</p></p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v6" placeholder="0-6">
+        </div>
+        <div id="botaosomar">
+            <input id="soma"> 
+            <br>
+            <button id="bs" onclick="multiplicarPlaceholder(soma, v1.value,1099.99, v2.value,169.7, v3.value,529.9, v4.value,182.19, v5.value,139.9, v6.value,89.9)">Somar</button>
+        </div>
+    </div>
+    <a href="carrinho.html"> <button type="button" id="botaoentrar" >Finalizar Compra</button></a>  
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1.jpg">
+    <link rel="stylesheet" href="compras1.css">
+    <script src="loja_criarconta.js"></script>
+    <title>LóutusDrinks/OutrasBebidas</title>
+</head>
+
+<body>
+    <h1>Lótus Drinks<br>Outras Bebidas</h1>
+    <a href="loja_inicial.html"><image src="logo1.jpg" id="logo"></image></a>
+    <div id="grade">
+        <div id="pro1">
+            <image src="fernet.jpg" id="produto1"></image>
+            <p>Kit Fernet Branca + Coca-cola <br>R$55,00</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v1" placeholder="0-6">
+        </div>
+        <div id="pro2">
+            <image src="grapa.jpg" id="produto2"></image>
+            <p>Grapamiel Vesuvio<br>R$35,59 </p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v2" placeholder="0-6">
+        </div>
+        <div id="pro3">
+            <image src="fernert1.webp" id="produto3"></image>
+            <p>Fernet Branca<br>R$49,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v3" placeholder="0-6">
+        </div>
+    </div>
+    <div id="botaosomar">
+        <input id="soma">
+        <br> 
+        <button id="bs" onclick="multiplicarPlaceholder(soma, v1.value,55, v2.value,35.59, v3.value,49.99)">Somar</button>
+    </div>
+    </div>
+    <a href="carrinho.html"> <button type="button" id="botaoentrar" >Finalizar Compra</button></a>  
+</body>
+</html>

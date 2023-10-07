@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1.jpg">
+    <link rel="stylesheet" href="compras.css">
+    <script src="loja_criarconta.js"></script>
+    <title>LóutusDrinks/Cervejas</title>
+</head>
+
+<body>
+    <h1>Lótus Drinks<br>Cervejas</h1>
+    <a href="loja_inicial.html"><image src="logo1.jpg" id="logo"></image></a>
+    <div id="grade">
+        <div id="pro1">
+            <image src="Patricia.webp" id="produto1"></image>
+            <p>Patricia 1L<br>R$15,00</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v1" placeholder="0-6">
+        </div>
+        <div id="pro2">
+            <image src="nortenha.webp" id="produto2"></image>
+            <p>Caixa Nortenña c/12 1L<br>R$120,00 </p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v2" placeholder="0-6">
+        </div>
+        <div id="pro3">
+            <image src="zillertal.webp" id="produto3"></image>
+            <p>Zillertal 1L<br>R$11,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v3" placeholder="0-6">
+        </div>
+        <div id="pro4">
+            <image src="patricialata.jpg" id="produto4"></image>
+            <p>Patricia Lata 473ml<br>R$4,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v4" placeholder="0-6">
+        </div>
+        <div id="pro5">
+            <image src="nortenalata.webp" id="produto5"></image>
+            <p>Norteña Lata 473ml<br>R$5,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v5" placeholder="0-6">
+        </div>
+        <div id="pro6">
+            <image src="pilsen.webp" id="produto6"></image>
+            <p>Pilsen 1L<br>R$9,99</p></p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v6" placeholder="0-6">
+        </div>
+        <div id="botaosomar">
+            <input id="soma"> 
+            <br>
+            <button id="bs" onclick="multiplicarPlaceholder(soma, v1.value,15, v2.value,120, v3.value,11.99, v4.value,4.99, v5.value,5.99, v6.value,9.99)">Somar</button>
+        </div>
+    </div>
+    <a href="carrinho.html"> <button type="button" id="botaoentrar" >Finalizar Compra</button></a>  
+</body>
+</html>

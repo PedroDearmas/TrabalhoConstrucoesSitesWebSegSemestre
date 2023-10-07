@@ -1,0 +1,46 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(2, 0, 32);
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 50%;
+    width: 100%;
+    height: 100%;
+}
+#agra{
+    color: rgb(255, 153, 0);
+    font-size: 70px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+#pela{
+    color: rgb(255, 153, 0);
+    font-size: 70px;
+    position: absolute;
+    top: 450px;
+    left: 580px;
+}
+#pre{
+    color: rgb(255, 153, 0);
+    font-size: 70px;
+    position: absolute;
+    top: 650px;
+    left: 700px;
+}
+#botaoentrar {
+    height: 53px;
+    width: 360px;
+    border-radius: 10px;
+    background-color: rgb(255, 153, 0);
+    color:black;
+    border-color:  rgb(255, 153, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;;
+    top: 885px;
+    left: 1470px;
+}

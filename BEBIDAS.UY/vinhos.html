@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1.jpg">
+    <link rel="stylesheet" href="compras.css">
+    <script src="loja_criarconta.js"></script>
+    <title>LóutusDrinks/Vinhos</title>
+</head>
+
+<body>
+    <h1>Lótus Drinks<br> Vinhos</h1>
+    <a href="loja_inicial.html"><image src="logo1.jpg" id="logo"></image></a>
+    <div id="grade">
+        <div id="pro1">
+            <image src="FaisanDulce.png" id="produto1"></image>
+            <p> Faisan Rosado Dulce 1L<br>R$19,90</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v1" placeholder="0-6">
+        </div>
+        <div id="pro2">
+            <image src="FaisanTinto.webp" id="produto2"></image>
+            <p>Faisan Tinto Merlot 1L<br>R$95,59 </p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v2" placeholder="0-6">
+        </div>
+        <div id="pro3">
+            <image src="DonPascual.jpg" id="produto3"></image>
+            <p>Don Pascual 750ml<br>R$99,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v3" placeholder="0-6">
+        </div>
+        <div id="pro4">
+            <image src="AltoDeLaBallena.png" id="produto4"></image>
+            <p>Alto De La Ballena Tannat 750ml<br>R$299,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v4"placeholder="0-6">
+        </div>
+        <div id="pro5">
+            <image src="DiMallo.jpg" id="produto5"></image>
+            <p>Di Mallo Caberne Suavignon 750ml<br>R$39,99</p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v5" placeholder="0-6">
+        </div>
+        <div id="pro6">
+            <image src="Traversa.jpg" id="produto6"></image>
+            <p>Traversa Caberne Suavignon 750ml<br>R$33,90</p></p>
+            <input type="number" name="qunatidade" min="0" max="6" class="checkbox" id="v6" placeholder="0-6">
+        </div>
+        <div id="botaosomar">
+            <input id="soma"> 
+            <br>
+            <button  id="bs" onclick="multiplicarPlaceholder(soma, v1.value,19.99, v2.value,95.59, v3.value,99.99, v4.value,299.99, v5.value,39.99, v6.value,33.9)">Somar</button>
+        </div>
+    </div>
+    <a href="carrinho.html"> <button type="button" id="botaoentrar" >Finalizar Compra</button></a>  
+</body>
+</html>

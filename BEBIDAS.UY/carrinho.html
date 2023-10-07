@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1.jpg">
+    <link rel="stylesheet" href="carrinho.css">
+    <script src="loja_criarconta.js"></script>
+    <title>LótusBeer/Carrinho</title>
+</head>
+<body onload="preco();">
+    <h1>Carrinho</h1>
+    <div id="formulario">
+        <input type="text" class="box" placeholder="Nome do Titular" required>
+        <br>
+        <br>
+        <input type="text" class="box" placeholder="Numero do Cartão" required>
+        <br>
+        <br>
+        <input type="date" class="boxmenor" placeholder="Data de Validade" required>
+        <input type="text" class="boxmenor" placeholder="CVV" required>
+        <br>
+        <br>
+        <input id="valortotal" class="box" placeholder="Valor Total" >
+        <br>
+        <br>
+        Sem juros <br>
+        <input type="radio" id="1x" name="Opção"/>
+        <label for="radio1">1X</label>
+        <input type="radio" id="2x" name="Opção"/>
+        <label for="radio2">2X</label>
+        <input type="radio" id="3x" name="Opção"/>
+        <label for="radio3">3X</label>
+        <input type="radio" id="4x" name="Opção"/>
+        <label for="radio4">4X</label>
+        <br>
+        5% de juros a/m<br>
+        <input type="radio" id="5x" name="Opção"/>
+        <label for="radio5">5X</label>
+        <input type="radio" id="6x" name="Opção"/>
+        <label for="radio6">6X</label>
+         <input type="radio" id="7x" name="Opção"/>
+        <label for="radio7">7X</label>
+        <input type="radio" id="8x" name="Opção"/>
+        <laid= for="radio8">8X</laid="bs"bel>
+        <br>
+        1,5% de juros compostos a/m<br>
+        <input type="radio" id="9x" name="Opção"/>
+        <label for="radio9">9X</label>
+        <input type="radio" id="10x" name="Opção"/>
+        <label for="radio10">10X</label>
+        <input type="radio" id="11x" name="Opção"/>
+        <label for="radio11">11X</label>
+        <input type="radio" id="12x" name="Opção"/>
+        <label for="radio12">12X</label>
+        <br>
+        <br>
+        <input id="valortotal" class="box" placeholder="Valor Parcelas" >
+        <br>
+        <button type="button" id="botaoentrar" onclick="calcular()">Calcular Parcelas</button></a>
+        <br>
+        <a href="final_compra.html"> <button type="button" id="botaoentrar" >Pagar agora</button></a>
+    </div>
+</body>
+</html>
